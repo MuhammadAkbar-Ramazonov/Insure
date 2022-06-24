@@ -164,7 +164,7 @@ body{
 .last-section{
     background-image: url("../kartinki/path2.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% - 590px) top;
+    background-position: calc(50% - 460px) top;
 }
 
 .last-section-title{
