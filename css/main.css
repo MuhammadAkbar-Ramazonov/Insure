@@ -17,6 +17,7 @@ body{
     padding-left: 20px;
 }
 
+
 .site-header-wrapper{
     width: 1110px;
     display: flex;
@@ -87,7 +88,11 @@ body{
 
 .top-section{
     background-color: #2D2641;
+    background-image: url("../kartinki/path.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 590px) top;
 }
+
 
 .top-section-span{
     display: block;
@@ -113,7 +118,7 @@ body{
     height: 1px;
     left: 165px;
     top: 185px;
-
+    
     background: #FFFFFF;
 }
 
@@ -155,6 +160,13 @@ body{
     background-color: #FFFFFF;
 }
 
+
+.last-section{
+    background-image: url("../kartinki/path2.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 590px) top;
+}
+
 .last-section-title{
     width: 600px;
     font-family: 'DM Serif Display';
@@ -193,7 +205,26 @@ body{
     margin-right: 30px;
 }
 
+.last-section-item::before{
+    display: block;
+    width: 86px;
+    height: 86px;
+    background-image: url("../kartinki/chaqmoq.svg");
+    background-size: 86px 86px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-bottom: 32px;
+    content: "";
+}
+
+.last-section-item:nth-child(2){
+    background-image: url("../kartinki/dollar.svg");
+    background-repeat: no-repeat;
+
+}
 .last-section-item:nth-child(3){
+    background-image: url("../kartinki/contact.svg");
+    background-repeat: no-repeat;
     margin-right: 0;
 }
 
@@ -227,8 +258,8 @@ body{
     align-items: center;
     width: 1110px;
     height: 250px;
-    background-color: #2D2641;
     margin-bottom: 150px;
+    background-image: url("../kartinki/work.jpg");
 }
 
 .site-atrticle-h2{
@@ -248,17 +279,13 @@ body{
 }
 
 .site-article-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 146px;
+    width: 160px;
     height: 40px;
     font-size: 13px;
     line-height: 15px;
-    text-align: center;
-    letter-spacing: 1.5px;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 13px 24px;
     border: 1px solid #FFFFFF;
 }
 
